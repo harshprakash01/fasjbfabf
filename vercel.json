@@ -13,10 +13,7 @@
       }
     ],
 
-  "rewrites": [
-    { "source": "/listen/(.*)", "destination": "/listen" },
-    { "source": "/(.*)", "destination": "/index.html" }
-  ],
+
 
     "env": {
       "NEXT_PUBLIC_API_URL": "https://api.example.com"
